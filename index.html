@@ -2,7 +2,7 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
-const BACKEND = "https://subconverter.phicomm.kdns.fr"; // 替换为你的 Subconverter 后端地址
+const BACKEND = "https://cf-subweb-subconverter.airport.kdns.fr"; // 替换为你的 Subconverter 后端地址
 
 async function handleRequest(request) {
   const url = new URL(request.url)
